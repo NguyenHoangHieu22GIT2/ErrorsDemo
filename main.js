@@ -30,6 +30,6 @@ class calculator {
 
 const calculatorInstance = new calculator();
 
-console.log(calculatorInstance.square(5, 2));
+console.log(calculatorInstance.square(10, 2));
 
 console.log(calculatorInstance.add(3, 2));
