@@ -14,4 +14,7 @@ class calculator {
   module(a, b) {
     return a % b;
   }
+  real(a, b) {
+    return (a / b).toFixed(10);
+  }
 }
