@@ -21,7 +21,7 @@ class calculator {
     return Math.sqrt(a);
   }
   square(a, n) {
-    if (n !== 1) {
+    if (n !== 0) {
       return this.square(a * a, n - 1);
     }
     return a;
