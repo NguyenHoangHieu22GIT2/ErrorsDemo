@@ -17,4 +17,7 @@ class calculator {
   real(a, b) {
     return (a / b).toFixed(10);
   }
+  squareRoot(a) {
+    return Math.sqrt(a);
+  }
 }
