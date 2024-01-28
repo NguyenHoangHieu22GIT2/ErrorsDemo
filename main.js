@@ -29,3 +29,5 @@ class calculator {
 }
 
 const calculatorInstance = new calculator();
+
+console.log(calculatorInstance.square(5, 2));
