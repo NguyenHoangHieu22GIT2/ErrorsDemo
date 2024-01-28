@@ -34,3 +34,7 @@ const calculatorInstance = new calculator();
 console.log(calculatorInstance.square(10, 2));
 
 console.log(calculatorInstance.add(3, 2));
+
+for (let i = 0; i < calculatorInstance.mutilply(10, 10); i++) {
+  console.log(i)
+}
