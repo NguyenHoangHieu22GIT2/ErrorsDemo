@@ -20,4 +20,10 @@ class calculator {
   squareRoot(a) {
     return Math.sqrt(a);
   }
+  square(a, n) {
+    if (n !== 1) {
+      return this.square(a * a, n - 1)
+    }
+    return a
+  }
 }
