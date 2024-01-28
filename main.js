@@ -11,4 +11,7 @@ class calculator {
   divide(a, b) {
     return a / b;
   }
+  module(a, b) {
+    return a % b;
+  }
 }
