@@ -5,4 +5,7 @@ class calculator {
   subtract(a, b) {
     return a - b;
   }
+  mutilply(a, b) {
+    return a * b;
+  }
 }
