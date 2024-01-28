@@ -27,3 +27,5 @@ class calculator {
     return a;
   }
 }
+
+const calculatorInstance = new calculator();
