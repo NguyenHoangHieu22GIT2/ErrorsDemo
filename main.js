@@ -1,5 +1,6 @@
 class calculator {
   add(a, b) {
+    console.log(a, b)
     return a + b;
   }
   subtract(a, b) {
